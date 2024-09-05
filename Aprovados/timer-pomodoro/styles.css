@@ -299,3 +299,38 @@ button:hover {
 		height: 3.5em;
 	}
 }
+
+.logo-img {
+	width: 80px; /* Diminuindo um pouco o tamanho do ícone */
+	height: auto;
+	display: block;
+	margin: 15px auto; /* Ajuste de margens para centralização e espaçamento */
+}
+
+.menu .logo {
+	text-align: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Linha divisória abaixo do logo */
+	padding-bottom: 10px;
+}
+
+
+.logo-img {
+	width: 80px; /* Tamanho do ícone */
+	height: auto;
+	display: block;
+	margin: 15px auto 0 auto; /* Remover a margem inferior para o texto ficar mais próximo da imagem */
+	position: relative; /* Necessário para que o texto fique dentro da imagem */
+}
+
+.logo-text {
+	text-align: center;
+	margin: -20px 0 5px 0; /* Margem negativa para mover o texto para cima, dentro da imagem */
+	position: relative;
+}
+
+.logo-title {
+	font-family: 'Roboto', sans-serif; /* Fonte elegante */
+	font-size: 1em; /* Tamanho da fonte */
+	font-weight: bold;
+	color: #1a2c48; /* Cor que combina com o gradiente do fundo */
+}
