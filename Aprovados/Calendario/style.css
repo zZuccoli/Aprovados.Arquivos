@@ -448,3 +448,9 @@ header nav button:hover {
         height: 3.5em;
     }
 }
+.menu li a.note:before {
+    content: "\f303"; /* ícone de anotações (pencil) */
+}
+.menu li a.about-us:before {
+    content: "\f0c0"; /* ícone de várias pessoas */
+}

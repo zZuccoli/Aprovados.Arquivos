@@ -195,7 +195,11 @@ button:hover {
 }
 
 .menu li a.note:before {
-	content: "\f5d2";
+	content: "\f303"; /* ícone de anotações (pencil) */
+}
+
+.menu li a.about-us:before {
+	content: "\f0c0"; /* ícone de várias pessoas */
 }
 
 .menu li a.logout:before {
